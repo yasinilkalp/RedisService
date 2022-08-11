@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<PackageId>Ledbim.RedisService</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Yasin ilkalp Arabacı</Authors>
+		<Company>KodEkibi</Company>
+		<Description>Redis kullanımını kolaylaştıran bir tool</Description>
+		<PackageTags>Redis,Cache,Distributed</PackageTags>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<RepositoryUrl>https://github.com/yasinilkalp/RedisService</RepositoryUrl>
+		<PackageIcon>icon.png</PackageIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="icon.png" Pack="true" PackagePath="" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="StackExchange.Redis" Version="2.5.61" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+	</ItemGroup>
+
+</Project>
