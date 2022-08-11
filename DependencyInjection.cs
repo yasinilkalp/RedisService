@@ -5,7 +5,7 @@ namespace RedisService
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection AddMailSender(this IServiceCollection services)
+        public static IServiceCollection AddRedisServer(this IServiceCollection services)
         {
 
             services.AddSingleton<RedisServer>();
