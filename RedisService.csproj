@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<TargetFrameworks>net6.0;net5.0</TargetFrameworks>
 		<PackageId>Ledbim.RedisService</PackageId>
-		<Version>1.0.2</Version>
+		<Version>1.0.3</Version>
 		<Authors>Yasin ilkalp Arabacı</Authors>
 		<Company>KodEkibi</Company>
 		<Description>Redis kullanımını kolaylaştıran bir tool</Description>
